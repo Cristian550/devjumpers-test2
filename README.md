@@ -15,3 +15,8 @@ git push
 git branch v0.2
 git checkout v0.2
 touch 2.txt
+git add .
+git commit -m "rama v0.2 y 2.txt creada"
+git push
+git checkout main
+git merge v0.2

@@ -20,3 +20,18 @@ git commit -m "rama v0.2 y 2.txt creada"
 git push
 git checkout main
 git merge v0.2
+Se escribió "Hola" en 1.txt
+git add .
+git commit -m "se escribió <Hola> en 1.txt"
+git checkout v0.2
+Se escribió "Adios" en 1.txt
+git add .
+git commit -m "se escribió <Adios> en 1.txt"
+git checkout main
+git push
+git merge v0.2
+git branch --merged
+git branch --no-merged
+Se arregló el conflicto en 1.txt
+git add .
+git commit -m "conflicto resuelto"
